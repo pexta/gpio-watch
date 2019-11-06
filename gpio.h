@@ -40,6 +40,7 @@
 struct pin {
 	int pin;
 	int edge;
+	unsigned long long debounce;
 };
 
 int parse_direction(const char *direction);
